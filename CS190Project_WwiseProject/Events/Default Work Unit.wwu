@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Engine_start" ID="{C6AC9920-5E3A-4B48-98E2-6685EA28E979}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FB404420-6089-4643-986C-27FDF266B5FB}" ShortID="38760155" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C89A48BF-38B1-4DFC-862F-D4224E1B4CE3}" Global="false">
+									<ObjectRef Name="Engine Start" ID="{EFD69364-E43B-49CC-B435-3683D6260C35}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{53FEE68A-2D75-45C2-96CA-B5E29C061F08}" ShortID="423205785" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{0A1B9D59-8E39-419C-8776-2E3A22EC5EEF}" Global="false">
+									<ObjectRef Name="Tank Idle" ID="{70408651-AEBC-46B5-BB6F-7D43126066B7}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Background" ID="{6C20BD57-ED50-4170-B040-E87E9A919563}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8F6D3727-7252-4B50-90B1-5784E9567B76}" ShortID="590793687" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C2E2D9A4-4343-4CE2-BCDB-9BFD6B28D179}" Global="false">
+									<ObjectRef Name="Birds" ID="{183D3DC5-F78A-4F12-A186-88F976DA1F73}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{2644BF20-9F7E-4110-8317-81301F4B2BD0}" ShortID="601980316" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{018EEFB4-8FF0-45C4-AA89-4F7DEF20D036}" Global="false">
+									<ObjectRef Name="Ambient Wind" ID="{95417B8C-CE13-4E0A-A795-27575D9D818F}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{6D71192F-BE66-477C-99F5-4EC97F2E196A}" ShortID="1029026776" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{64158E1A-4533-4734-852A-4A4B6847D8D3}" Global="false">
+									<ObjectRef Name="War Background A" ID="{CA5CB3FB-A77A-438C-A96D-A49C5048BFBD}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{2A0FC478-C457-4E6C-966D-493ABB8083DB}" ShortID="1041321709" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B2C32C97-2560-498F-99CD-339AA84FC84A}" Global="false">
+									<ObjectRef Name="War Background B" ID="{11E2E265-623C-47FC-AFFA-0C2BC83490CE}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bird_activated" ID="{1C994F9D-E2A5-4D52-B3C3-3504B8703ACB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{98968A3A-BBD0-4F10-8C82-A5AFB2634536}" ShortID="740495574" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E2DE3C0E-B33F-4F75-BD4B-AA74652ADF1E}" Global="false">
+									<ObjectRef Name="Bird Flap_Cut" ID="{32BA5534-27FE-45B6-9455-1A9E20150AA5}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Helicopter_flying" ID="{AA5F2F0A-9A11-4AFD-93F9-8E26FC62B160}">
+					<ChildrenList>
+						<Action Name="Play" ID="{978E14CF-09EC-4B88-A656-5D96F371EC62}" ShortID="16256223" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1D17C11A-5DDC-432A-9B2E-B9BD06CF6ABA}" Global="false">
+									<ObjectRef Name="Helicopter" ID="{2813F1BB-C4EA-45ED-B381-E1E90EADD38A}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Helicopter_shotdown" ID="{EDB046FC-FCF8-4976-81C5-5809D1841AD6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D5A77F38-3316-47FC-87D5-2EFD5E2228D5}" ShortID="535833699" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0DEA2B37-18F9-4421-9B46-92B6318553B1}" Global="false">
+									<ObjectRef Name="Explosion" ID="{5A646ABF-777E-4FCB-B21B-46D866CA2D3E}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B33965D3-5AA0-4C63-931D-1CC3674BBA4A}" ShortID="945522151" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{79745145-92B7-4C24-A3F5-8B08357EBF42}" Global="false">
+									<ObjectRef Name="Fire" ID="{79BDF9D1-54BD-452D-809D-387FF06650C2}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tank_shoot" ID="{E398A802-ED3D-4437-8B53-F5B6C1D2FEA0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{637F4E07-E98A-4B04-9F60-8AF627394037}" ShortID="147215980" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F86ECDB5-92D1-4289-9DEC-F2DD2960ECD2}" Global="false">
+									<ObjectRef Name="Tank Shot" ID="{C5241393-C2A8-4E74-B770-50737EC334DB}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tree" ID="{893EF836-9E3A-4DE1-AB00-9BE200BAA959}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2F341584-C07C-48E8-A39C-66622EF8CFFD}" ShortID="793254880" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{73B9C10A-5D15-474F-84E2-75C96456F2AA}" Global="false">
+									<ObjectRef Name="Wood Snap 1" ID="{CF0D476C-658F-47DC-A5F1-592BD6DF4024}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B068A13E-DCE5-49D2-826B-240370C19B05}" ShortID="638403363" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D2EFA15E-7B8E-46D6-A91F-0BC007FA828C}" Global="false">
+									<ObjectRef Name="Wood Snap 2" ID="{E497B7B5-6F9B-49C9-9362-40F3737CCBFE}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tank_turret" ID="{74AFCE2B-7091-4E2A-822C-3AE8ACF38514}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C7002B68-2BEE-4F1B-86F5-C8CB92CFF09C}" ShortID="649997336" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A9B65993-9D44-4F08-A760-1D1685CEE02E}" Global="false">
+									<ObjectRef Name="Tank Turret Turn" ID="{863E43E6-FCF6-4504-8C64-5025A8C9928C}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Win" ID="{EEBCF385-E94C-4D09-8CA9-E15A23581D90}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7AD141D0-062B-44D4-AD9B-021AAFE87684}" ShortID="308649366" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B2715602-2F6E-433B-BE77-62892F8EA28F}" Global="false">
+									<ObjectRef Name="Fanfare" ID="{79E0529C-D1D6-4104-B697-968C0D1785F4}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Helicopter_shoots" ID="{C1F04B52-0CEC-48FC-9A15-F16B48F1C1E2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B0BEC19B-C410-40FD-97AC-B792C9247E60}" ShortID="12323323" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{965FBFA4-B989-476F-88C5-536899E962B7}" Global="false">
+									<ObjectRef Name="Helicopter Shot falling" ID="{3F25CA86-526F-489C-A70B-604C2CA0AB3D}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tank_gameover" ID="{CCCF97C1-94C3-4412-9985-929C443BDA89}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1841EBA8-8F20-4E04-B827-324BF1D54508}" ShortID="235868852" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{830505CF-6420-401F-AD31-5FCBF7C88F2F}" Global="false">
+									<ObjectRef Name="Helicopter Shot explosion" ID="{B8DBF7C1-15EA-4808-8859-FB15F017AB76}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{DA258DF3-E87E-4405-BEE5-54B230174645}" ShortID="646943415" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{3BE7FAD0-35DA-4059-AE33-43ECCA1B3977}" Global="false">
+									<ObjectRef Name="Terminated" ID="{C223EA20-FDD6-4AE7-BDF4-7CAF9FEDFA07}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tank_move" ID="{E01B62F0-EB91-4E68-8D9C-99BF81C44CFE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DDF5776C-D387-44F6-8E85-FB992ED7EEE4}" ShortID="252007981" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0DF4DEA2-4C4C-4A75-A094-8401876EBAED}" Global="false">
+									<ObjectRef Name="Tank Engine Flare" ID="{41E75F62-7657-4331-883F-0DB7D3389432}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B0C3F69B-52ED-4BDF-98C5-9B1426D2EC0C}" ShortID="250759635" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6CE134D4-4225-4027-AFE5-D051A4ED3963}" Global="false">
+									<ObjectRef Name="Tank Treads" ID="{33B3822F-FD26-4A85-8D8F-7A39CA7630EA}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{16BFE551-AA16-4259-A824-E774464D30DD}" ShortID="905742911" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B13BCEA4-D745-4C6C-9CEA-B4B1B0F1257B}" Global="false">
+									<ObjectRef Name="Tank Idle" ID="{70408651-AEBC-46B5-BB6F-7D43126066B7}" WorkUnitID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

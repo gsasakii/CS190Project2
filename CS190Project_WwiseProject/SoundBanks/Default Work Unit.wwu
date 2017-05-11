@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{455BCF7D-BE4C-4925-94C8-41A4CEA0BE94}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{455BCF7D-BE4C-4925-94C8-41A4CEA0BE94}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{01851D17-59F4-478F-91D8-4D80B5232B94}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Background" ID="{6C20BD57-ED50-4170-B040-E87E9A919563}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_gameover" ID="{CCCF97C1-94C3-4412-9985-929C443BDA89}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_shoot" ID="{E398A802-ED3D-4437-8B53-F5B6C1D2FEA0}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Helicopter_shoots" ID="{C1F04B52-0CEC-48FC-9A15-F16B48F1C1E2}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Helicopter_shotdown" ID="{EDB046FC-FCF8-4976-81C5-5809D1841AD6}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Helicopter_flying" ID="{AA5F2F0A-9A11-4AFD-93F9-8E26FC62B160}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Engine_start" ID="{C6AC9920-5E3A-4B48-98E2-6685EA28E979}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Win" ID="{EEBCF385-E94C-4D09-8CA9-E15A23581D90}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bird_activated" ID="{1C994F9D-E2A5-4D52-B3C3-3504B8703ACB}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tree" ID="{893EF836-9E3A-4DE1-AB00-9BE200BAA959}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_turret" ID="{74AFCE2B-7091-4E2A-822C-3AE8ACF38514}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_move" ID="{E01B62F0-EB91-4E68-8D9C-99BF81C44CFE}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="New_SoundBank" ID="{F72159AC-4305-4480-B722-C23CB0813C15}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Background" ID="{6C20BD57-ED50-4170-B040-E87E9A919563}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_gameover" ID="{CCCF97C1-94C3-4412-9985-929C443BDA89}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_shoot" ID="{E398A802-ED3D-4437-8B53-F5B6C1D2FEA0}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Helicopter_shoots" ID="{C1F04B52-0CEC-48FC-9A15-F16B48F1C1E2}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Helicopter_shotdown" ID="{EDB046FC-FCF8-4976-81C5-5809D1841AD6}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Helicopter_flying" ID="{AA5F2F0A-9A11-4AFD-93F9-8E26FC62B160}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Engine_start" ID="{C6AC9920-5E3A-4B48-98E2-6685EA28E979}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Win" ID="{EEBCF385-E94C-4D09-8CA9-E15A23581D90}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bird_activated" ID="{1C994F9D-E2A5-4D52-B3C3-3504B8703ACB}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tree" ID="{893EF836-9E3A-4DE1-AB00-9BE200BAA959}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_turret" ID="{74AFCE2B-7091-4E2A-822C-3AE8ACF38514}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tank_move" ID="{E01B62F0-EB91-4E68-8D9C-99BF81C44CFE}" WorkUnitID="{85AF3083-1A78-4E12-A5BF-F117B8F9C97F}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

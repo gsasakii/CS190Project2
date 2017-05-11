@@ -1,0 +1,36 @@
+Event	ID	Name			Wwise Object Path	Notes
+	979765101	Win			\Default Work Unit\Win	
+	1121374325	Helicopter_shotdown			\Default Work Unit\Helicopter_shotdown	
+	1390221720	Bird_activated			\Default Work Unit\Bird_activated	
+	2862969430	Engine_start			\Default Work Unit\Engine_start	
+	3319594634	Tank_turret			\Default Work Unit\Tank_turret	
+	3322072369	Tree			\Default Work Unit\Tree	
+	3650723969	Background			\Default Work Unit\Background	
+	3885158875	Tank_move			\Default Work Unit\Tank_move	
+	3952781612	Tank_gameover			\Default Work Unit\Tank_gameover	
+	3959900056	Helicopter_flying			\Default Work Unit\Helicopter_flying	
+	4233020881	Tank_shoot			\Default Work Unit\Tank_shoot	
+	4245052733	Helicopter_shoots			\Default Work Unit\Helicopter_shoots	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	74168914	Tank Engine Flare	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\MLTR_Tank, Military_US04_25_01_917A882D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tank Engine Flare		1475920
+	105277820	Birds	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\Birds 6038_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds		8101952
+	171005297	Tank Treads	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\TankMilitary 6038_86_B3EC02B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tank Treads		3756224
+	172517814	Wood Snap 2	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\WoodBreak 6088_71_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wood Snap 2		583744
+	214785952	Fanfare	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\HORN_Horn, Tally Ho_TCF05_77_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fanfare		364608
+	239634586	Bird Flap_Cut	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\BirdWing 6102_53_04B98D9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bird Flap_Cut		479692
+	246931894	Fire	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\FIRE_Fire_TCF04_81_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire		1335360
+	430025424	Helicopter Shot falling	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\EXPL_Explosion_US04_09_04_895ECF9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Helicopter Shot falling		198428
+	490795910	Tank Turret Turn	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\MLTR_Tank, Military_TUR03_75_01_5912FF8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tank Turret Turn		1544964
+	502946309	Wood Snap 1	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\WoodBreak 6088_71_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wood Snap 1		397376
+	575766164	Ambient Wind	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\Wind 6036_52_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient Wind		15890496
+	628206626	Terminated	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\terminated_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terminated		24192
+	688893515	Tank Shot	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\GunTank 6025_30_1_E489DC09.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tank Shot		216248
+	700978942	Engine Start	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\MotorGas 6065_42_04F6B73B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine Start		637992
+	877625575	War Background A	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\MLTR_Warfare_BBC18_38_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\War Background A		1419328
+	883812714	Tank Idle	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\MLTR_Tank, Military_US04_24_01_C0BE5B86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tank Idle		1928296
+	898768707	Helicopter Shot explosion	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\EXPL_Explosion_US04_09_04_91A5F030.wem		\Actor-Mixer Hierarchy\Default Work Unit\Helicopter Shot explosion		401300
+	908082231	Explosion	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\ExploSkyAboveDistL MM020203_8DF4E520.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion		657260
+	950830931	War Background B	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\MLTR_Warfare_BBC18_69_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\War Background B		28821568
+	969339601	Helicopter	Y:\Downloads\CS190Project2-master\CS190Project\CS190Project_WwiseProject\.cache\Windows\SFX\Helicopter 6019_12_7A382CE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Helicopter		4391388
+

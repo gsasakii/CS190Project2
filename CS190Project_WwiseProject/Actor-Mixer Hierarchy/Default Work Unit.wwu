@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{053810E2-2650-4DD2-B0AA-35E4A17DC2A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Birds" ID="{183D3DC5-F78A-4F12-A186-88F976DA1F73}" ShortID="307994811" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Birds 6038_08" ID="{089353BA-859F-4BAA-860B-11FA6A7E4E5F}" ShortID="105277820">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.301503743729439"/>
+								<Property Name="LoopEnd" Type="Real64" Value="45.728067798965"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Birds 6038_08.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Birds 6038_08" ID="{089353BA-859F-4BAA-860B-11FA6A7E4E5F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Bird Flap_Cut" ID="{32BA5534-27FE-45B6-9455-1A9E20150AA5}" ShortID="612623973" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BirdWing 6102_53" ID="{68160C06-BBFE-4D71-B36F-95804C0CA227}" ShortID="239634586">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.576053032445655"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.71897031314349"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>BirdWing 6102_53.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BirdWing 6102_53" ID="{68160C06-BBFE-4D71-B36F-95804C0CA227}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Explosion" ID="{5A646ABF-777E-4FCB-B21B-46D866CA2D3E}" ShortID="628282807" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ExploSkyAboveDistL MM020203" ID="{E880A46F-09E5-4729-BD05-B3FE50D3D2B8}" ShortID="908082231">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.56969191761314"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.72560869716231"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ExploSkyAboveDistL MM020203.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ExploSkyAboveDistL MM020203" ID="{E880A46F-09E5-4729-BD05-B3FE50D3D2B8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Fire" ID="{79BDF9D1-54BD-452D-809D-387FF06650C2}" ShortID="102514288" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FIRE_Fire_TCF04_81_01" ID="{109DEBBF-4F1E-4E45-A914-6816F4EC2FD7}" ShortID="246931894">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.0331278127589475"/>
+								<Property Name="LoopEnd" Type="Real64" Value="7.48688568352213"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>FIRE_Fire_TCF04_81_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FIRE_Fire_TCF04_81_01" ID="{109DEBBF-4F1E-4E45-A914-6816F4EC2FD7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tank Shot" ID="{C5241393-C2A8-4E74-B770-50737EC334DB}" ShortID="984441267" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GunTank 6025_30_1" ID="{6E6AAB19-1651-4D45-B545-E9FDF686F2BF}" ShortID="688893515">
+							<PropertyList>
+								<Property Name="TrimEnd" Type="Real64" Value="1.22552583396597"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>GunTank 6025_30_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GunTank 6025_30_1" ID="{6E6AAB19-1651-4D45-B545-E9FDF686F2BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Helicopter" ID="{2813F1BB-C4EA-45ED-B381-E1E90EADD38A}" ShortID="954854901" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Helicopter 6019_12" ID="{F50F6270-F988-413A-92FD-70C2DFFDBE1B}" ShortID="969339601">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="6.87452924276932"/>
+								<Property Name="LoopEnd" Type="Real64" Value="59.4750939033527"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="34.9976034177347"/>
+								<Property Name="TrimEnd" Type="Real64" Value="59.8917320392781"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Helicopter 6019_12.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="HORN_Horn, Tally Ho_TCF05_77_01" ID="{155E891E-CCAC-4759-8323-E9D2577B75EB}" ShortID="214785952">
+							<Language>SFX</Language>
+							<AudioFile>HORN_Horn, Tally Ho_TCF05_77_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Helicopter 6019_12" ID="{F50F6270-F988-413A-92FD-70C2DFFDBE1B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tank Turret Turn" ID="{863E43E6-FCF6-4504-8C64-5025A8C9928C}" ShortID="487860218" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MLTR_Tank, Military_TUR03_75_01" ID="{17FF79AC-C2BC-4652-B815-B233231F8002}" ShortID="490795910">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.72854016880275"/>
+								<Property Name="TrimBegin" Type="Real64" Value="12.387871209753"/>
+								<Property Name="TrimEnd" Type="Real64" Value="21.1458080650203"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>MLTR_Tank, Military_TUR03_75_01.wav</AudioFile>
+						</AudioFileSource>
+						<AudioFileSource Name="EXPL_Explosion_US04_09_04" ID="{94959219-38FC-4FB0-9CE6-8837199FB39E}" ShortID="611456131">
+							<Language>SFX</Language>
+							<AudioFile>EXPL_Explosion_US04_09_04.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MLTR_Tank, Military_TUR03_75_01" ID="{17FF79AC-C2BC-4652-B815-B233231F8002}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tank Idle" ID="{70408651-AEBC-46B5-BB6F-7D43126066B7}" ShortID="941899034" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MLTR_Tank, Military_US04_24_01" ID="{9D78586A-8B6B-43F4-B90B-01003E74C8B7}" ShortID="883812714">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.20193254836581"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.786404481559218"/>
+								<Property Name="LoopBegin" Type="Real64" Value="3.77474151148424"/>
+								<Property Name="LoopEnd" Type="Real64" Value="13.2115952901948"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.06697747808095"/>
+								<Property Name="TrimEnd" Type="Real64" Value="13.9979997717541"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>MLTR_Tank, Military_US04_24_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MLTR_Tank, Military_US04_24_01" ID="{9D78586A-8B6B-43F4-B90B-01003E74C8B7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tank Engine Flare" ID="{41E75F62-7657-4331-883F-0DB7D3389432}" ShortID="11593292" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MLTR_Tank, Military_US04_25_01" ID="{86369027-7E07-453C-9FA2-19699726C355}" ShortID="74168914">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.919398423118335"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.24118787120975"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.04535306172068"/>
+								<Property Name="TrimEnd" Type="Real64" Value="12.4118787120975"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>MLTR_Tank, Military_US04_25_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MLTR_Tank, Military_US04_25_01" ID="{86369027-7E07-453C-9FA2-19699726C355}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="War Background A" ID="{CA5CB3FB-A77A-438C-A96D-A49C5048BFBD}" ShortID="276749422" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MLTR_Warfare_BBC18_38_01" ID="{BECDF2CA-AB05-442C-B4D8-D276BC78372F}" ShortID="877625575">
+							<Language>SFX</Language>
+							<AudioFile>MLTR_Warfare_BBC18_38_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MLTR_Warfare_BBC18_38_01" ID="{BECDF2CA-AB05-442C-B4D8-D276BC78372F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="War Background B" ID="{11E2E265-623C-47FC-AFFA-0C2BC83490CE}" ShortID="440139209" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MLTR_Warfare_BBC18_69_01" ID="{DBF33D39-1B29-419C-A092-B4B15AC0E55F}" ShortID="950830931">
+							<Language>SFX</Language>
+							<AudioFile>MLTR_Warfare_BBC18_69_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MLTR_Warfare_BBC18_69_01" ID="{DBF33D39-1B29-419C-A092-B4B15AC0E55F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Engine Start" ID="{EFD69364-E43B-49CC-B435-3683D6260C35}" ShortID="898203504" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MotorGas 6065_42" ID="{8413AA81-22C3-45A2-B53B-E855F7D6EB42}" ShortID="700978942">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.06289195924383"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.84753337514779"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.46389092172336"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>MotorGas 6065_42.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MotorGas 6065_42" ID="{8413AA81-22C3-45A2-B53B-E855F7D6EB42}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tank Treads" ID="{33B3822F-FD26-4A85-8D8F-7A39CA7630EA}" ShortID="688484418" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TankMilitary 6038_86" ID="{4027D2F8-F969-4A30-A087-B78AC82076BB}" ShortID="171005297">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.7854722457911"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.5870864407032"/>
+								<Property Name="LoopBegin" Type="Real64" Value="25.7901546614269"/>
+								<Property Name="LoopEnd" Type="Real64" Value="45.8271209753048"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="25.3933830512511"/>
+								<Property Name="TrimEnd" Type="Real64" Value="46.6867927973523"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>TankMilitary 6038_86.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TankMilitary 6038_86" ID="{4027D2F8-F969-4A30-A087-B78AC82076BB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambient Wind" ID="{95417B8C-CE13-4E0A-A795-27575D9D818F}" ShortID="339462698" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wind 6036_52" ID="{D2FD4747-2448-4D5B-8172-0941E1AF1792}" ShortID="575766164">
+							<Language>SFX</Language>
+							<AudioFile>Wind 6036_52.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wind 6036_52" ID="{D2FD4747-2448-4D5B-8172-0941E1AF1792}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wood Snap 1" ID="{CF0D476C-658F-47DC-A5F1-592BD6DF4024}" ShortID="1026215626" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WoodBreak 6088_71_1" ID="{DEFB070E-0E15-4CFE-978D-F9D6C399A044}" ShortID="502946309">
+							<Language>SFX</Language>
+							<AudioFile>WoodBreak 6088_71_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WoodBreak 6088_71_1" ID="{DEFB070E-0E15-4CFE-978D-F9D6C399A044}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wood Snap 2" ID="{E497B7B5-6F9B-49C9-9362-40F3737CCBFE}" ShortID="28558019" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WoodBreak 6088_71_2" ID="{1B5B095B-8FB8-4A92-9BA9-2DEDB20F99EA}" ShortID="172517814">
+							<Language>SFX</Language>
+							<AudioFile>WoodBreak 6088_71_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WoodBreak 6088_71_2" ID="{1B5B095B-8FB8-4A92-9BA9-2DEDB20F99EA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Fanfare" ID="{79E0529C-D1D6-4104-B697-968C0D1785F4}" ShortID="51417817" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HORN_Horn, Tally Ho_TCF05_77_01" ID="{5FC6A08B-5436-4813-95E6-F746BF2610BE}" ShortID="354432625">
+							<Language>SFX</Language>
+							<AudioFile>HORN_Horn, Tally Ho_TCF05_77_01.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="214785952"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HORN_Horn, Tally Ho_TCF05_77_01" ID="{5FC6A08B-5436-4813-95E6-F746BF2610BE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Helicopter Shot explosion" ID="{B8DBF7C1-15EA-4808-8859-FB15F017AB76}" ShortID="437451071" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EXPL_Explosion_US04_09_04" ID="{C6E417B9-9891-4FA5-86CE-335DD319A83D}" ShortID="898768707">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.55586894714122"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.13090578901145"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.40549596352035"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>EXPL_Explosion_US04_09_04.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="EXPL_Explosion_US04_09_04" ID="{C6E417B9-9891-4FA5-86CE-335DD319A83D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Helicopter Shot falling" ID="{3F25CA86-526F-489C-A70B-604C2CA0AB3D}" ShortID="756250968" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EXPL_Explosion_US04_09_04" ID="{2591478E-6DCA-4ED0-A5AE-0746F19CA772}" ShortID="430025424">
+							<PropertyList>
+								<Property Name="TrimEnd" Type="Real64" Value="1.12451649076844"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>EXPL_Explosion_US04_09_04.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="EXPL_Explosion_US04_09_04" ID="{2591478E-6DCA-4ED0-A5AE-0746F19CA772}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Terminated" ID="{C223EA20-FDD6-4AE7-BDF4-7CAF9FEDFA07}" ShortID="591105189" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AA2A3D38-04EA-4DF1-909C-D8B8B81E9231}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{87CBD2F2-2724-4FF5-864F-7A20F6A17908}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="terminated" ID="{A11CA5CD-F5D7-4255-ACEF-A49C02341892}" ShortID="628206626">
+							<Language>SFX</Language>
+							<AudioFile>terminated.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="terminated" ID="{A11CA5CD-F5D7-4255-ACEF-A49C02341892}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

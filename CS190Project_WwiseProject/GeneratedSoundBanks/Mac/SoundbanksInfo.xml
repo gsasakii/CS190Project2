@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/GakuSasaki/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Downloads/CS190Project2-master/CS190Project/CS190Project_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/GakuSasaki/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Downloads/CS190Project2-master/CS190Project/CS190Project_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/GakuSasaki/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Downloads/CS190Project2-master/CS190Project/CS190Project_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/GakuSasaki/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Downloads/CS190Project2-master/CS190Project/CS190Project_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3650723969" Name="Background" ObjectPath="\Events\Default Work Unit\Background"/>
+				<Event Id="1390221720" Name="Bird_activated" ObjectPath="\Events\Default Work Unit\Bird_activated"/>
+				<Event Id="2862969430" Name="Engine_start" ObjectPath="\Events\Default Work Unit\Engine_start"/>
+				<Event Id="3959900056" Name="Helicopter_flying" ObjectPath="\Events\Default Work Unit\Helicopter_flying"/>
+				<Event Id="4245052733" Name="Helicopter_shoots" ObjectPath="\Events\Default Work Unit\Helicopter_shoots"/>
+				<Event Id="1121374325" Name="Helicopter_shotdown" ObjectPath="\Events\Default Work Unit\Helicopter_shotdown"/>
+				<Event Id="3952781612" Name="Tank_gameover" ObjectPath="\Events\Default Work Unit\Tank_gameover"/>
+				<Event Id="3885158875" Name="Tank_move" ObjectPath="\Events\Default Work Unit\Tank_move"/>
+				<Event Id="4233020881" Name="Tank_shoot" ObjectPath="\Events\Default Work Unit\Tank_shoot"/>
+				<Event Id="3319594634" Name="Tank_turret" ObjectPath="\Events\Default Work Unit\Tank_turret"/>
+				<Event Id="3322072369" Name="Tree" ObjectPath="\Events\Default Work Unit\Tree"/>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="74168914" Language="SFX">
+					<ShortName>MLTR_Tank, Military_US04_25_01.wav</ShortName>
+					<Path>SFX/MLTR_Tank, Military_US04_25_01_917A882D.wem</Path>
+				</File>
+				<File Id="105277820" Language="SFX">
+					<ShortName>Birds 6038_08.wav</ShortName>
+					<Path>SFX/Birds 6038_08_9E69E797.wem</Path>
+				</File>
+				<File Id="171005297" Language="SFX">
+					<ShortName>TankMilitary 6038_86.wav</ShortName>
+					<Path>SFX/TankMilitary 6038_86_B3EC02B8.wem</Path>
+				</File>
+				<File Id="172517814" Language="SFX">
+					<ShortName>WoodBreak 6088_71_2.wav</ShortName>
+					<Path>SFX/WoodBreak 6088_71_2_9E69E797.wem</Path>
+				</File>
+				<File Id="214785952" Language="SFX">
+					<ShortName>HORN_Horn, Tally Ho_TCF05_77_01.wav</ShortName>
+					<Path>SFX/HORN_Horn, Tally Ho_TCF05_77_01_9E69E797.wem</Path>
+				</File>
+				<File Id="239634586" Language="SFX">
+					<ShortName>BirdWing 6102_53.wav</ShortName>
+					<Path>SFX/BirdWing 6102_53_04B98D9F.wem</Path>
+				</File>
+				<File Id="246931894" Language="SFX">
+					<ShortName>FIRE_Fire_TCF04_81_01.wav</ShortName>
+					<Path>SFX/FIRE_Fire_TCF04_81_01_9E69E797.wem</Path>
+				</File>
+				<File Id="430025424" Language="SFX">
+					<ShortName>EXPL_Explosion_US04_09_04.wav</ShortName>
+					<Path>SFX/EXPL_Explosion_US04_09_04_895ECF9F.wem</Path>
+				</File>
+				<File Id="490795910" Language="SFX">
+					<ShortName>MLTR_Tank, Military_TUR03_75_01.wav</ShortName>
+					<Path>SFX/MLTR_Tank, Military_TUR03_75_01_5912FF8F.wem</Path>
+				</File>
+				<File Id="502946309" Language="SFX">
+					<ShortName>WoodBreak 6088_71_1.wav</ShortName>
+					<Path>SFX/WoodBreak 6088_71_1_9E69E797.wem</Path>
+				</File>
+				<File Id="575766164" Language="SFX">
+					<ShortName>Wind 6036_52.wav</ShortName>
+					<Path>SFX/Wind 6036_52_9E69E797.wem</Path>
+				</File>
+				<File Id="628206626" Language="SFX">
+					<ShortName>terminated.wav</ShortName>
+					<Path>SFX/terminated_9E69E797.wem</Path>
+				</File>
+				<File Id="688893515" Language="SFX">
+					<ShortName>GunTank 6025_30_1.wav</ShortName>
+					<Path>SFX/GunTank 6025_30_1_E489DC09.wem</Path>
+				</File>
+				<File Id="700978942" Language="SFX">
+					<ShortName>MotorGas 6065_42.wav</ShortName>
+					<Path>SFX/MotorGas 6065_42_04F6B73B.wem</Path>
+				</File>
+				<File Id="877625575" Language="SFX">
+					<ShortName>MLTR_Warfare_BBC18_38_01.wav</ShortName>
+					<Path>SFX/MLTR_Warfare_BBC18_38_01_9E69E797.wem</Path>
+				</File>
+				<File Id="883812714" Language="SFX">
+					<ShortName>MLTR_Tank, Military_US04_24_01.wav</ShortName>
+					<Path>SFX/MLTR_Tank, Military_US04_24_01_C0BE5B86.wem</Path>
+				</File>
+				<File Id="898768707" Language="SFX">
+					<ShortName>EXPL_Explosion_US04_09_04.wav</ShortName>
+					<Path>SFX/EXPL_Explosion_US04_09_04_91A5F030.wem</Path>
+				</File>
+				<File Id="908082231" Language="SFX">
+					<ShortName>ExploSkyAboveDistL MM020203.wav</ShortName>
+					<Path>SFX/ExploSkyAboveDistL MM020203_8DF4E520.wem</Path>
+				</File>
+				<File Id="950830931" Language="SFX">
+					<ShortName>MLTR_Warfare_BBC18_69_01.wav</ShortName>
+					<Path>SFX/MLTR_Warfare_BBC18_69_01_9E69E797.wem</Path>
+				</File>
+				<File Id="969339601" Language="SFX">
+					<ShortName>Helicopter 6019_12.wav</ShortName>
+					<Path>SFX/Helicopter 6019_12_7A382CE7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3650723969" Name="Background" ObjectPath="\Events\Default Work Unit\Background"/>
+				<Event Id="1390221720" Name="Bird_activated" ObjectPath="\Events\Default Work Unit\Bird_activated"/>
+				<Event Id="2862969430" Name="Engine_start" ObjectPath="\Events\Default Work Unit\Engine_start"/>
+				<Event Id="3959900056" Name="Helicopter_flying" ObjectPath="\Events\Default Work Unit\Helicopter_flying"/>
+				<Event Id="4245052733" Name="Helicopter_shoots" ObjectPath="\Events\Default Work Unit\Helicopter_shoots"/>
+				<Event Id="1121374325" Name="Helicopter_shotdown" ObjectPath="\Events\Default Work Unit\Helicopter_shotdown"/>
+				<Event Id="3952781612" Name="Tank_gameover" ObjectPath="\Events\Default Work Unit\Tank_gameover"/>
+				<Event Id="3885158875" Name="Tank_move" ObjectPath="\Events\Default Work Unit\Tank_move"/>
+				<Event Id="4233020881" Name="Tank_shoot" ObjectPath="\Events\Default Work Unit\Tank_shoot"/>
+				<Event Id="3319594634" Name="Tank_turret" ObjectPath="\Events\Default Work Unit\Tank_turret"/>
+				<Event Id="3322072369" Name="Tree" ObjectPath="\Events\Default Work Unit\Tree"/>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Win"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="74168914" Language="SFX">
+					<ShortName>MLTR_Tank, Military_US04_25_01.wav</ShortName>
+					<Path>SFX/MLTR_Tank, Military_US04_25_01_917A882D.wem</Path>
+				</File>
+				<File Id="105277820" Language="SFX">
+					<ShortName>Birds 6038_08.wav</ShortName>
+					<Path>SFX/Birds 6038_08_9E69E797.wem</Path>
+				</File>
+				<File Id="171005297" Language="SFX">
+					<ShortName>TankMilitary 6038_86.wav</ShortName>
+					<Path>SFX/TankMilitary 6038_86_B3EC02B8.wem</Path>
+				</File>
+				<File Id="172517814" Language="SFX">
+					<ShortName>WoodBreak 6088_71_2.wav</ShortName>
+					<Path>SFX/WoodBreak 6088_71_2_9E69E797.wem</Path>
+				</File>
+				<File Id="214785952" Language="SFX">
+					<ShortName>HORN_Horn, Tally Ho_TCF05_77_01.wav</ShortName>
+					<Path>SFX/HORN_Horn, Tally Ho_TCF05_77_01_9E69E797.wem</Path>
+				</File>
+				<File Id="239634586" Language="SFX">
+					<ShortName>BirdWing 6102_53.wav</ShortName>
+					<Path>SFX/BirdWing 6102_53_04B98D9F.wem</Path>
+				</File>
+				<File Id="246931894" Language="SFX">
+					<ShortName>FIRE_Fire_TCF04_81_01.wav</ShortName>
+					<Path>SFX/FIRE_Fire_TCF04_81_01_9E69E797.wem</Path>
+				</File>
+				<File Id="430025424" Language="SFX">
+					<ShortName>EXPL_Explosion_US04_09_04.wav</ShortName>
+					<Path>SFX/EXPL_Explosion_US04_09_04_895ECF9F.wem</Path>
+				</File>
+				<File Id="490795910" Language="SFX">
+					<ShortName>MLTR_Tank, Military_TUR03_75_01.wav</ShortName>
+					<Path>SFX/MLTR_Tank, Military_TUR03_75_01_5912FF8F.wem</Path>
+				</File>
+				<File Id="502946309" Language="SFX">
+					<ShortName>WoodBreak 6088_71_1.wav</ShortName>
+					<Path>SFX/WoodBreak 6088_71_1_9E69E797.wem</Path>
+				</File>
+				<File Id="575766164" Language="SFX">
+					<ShortName>Wind 6036_52.wav</ShortName>
+					<Path>SFX/Wind 6036_52_9E69E797.wem</Path>
+				</File>
+				<File Id="628206626" Language="SFX">
+					<ShortName>terminated.wav</ShortName>
+					<Path>SFX/terminated_9E69E797.wem</Path>
+				</File>
+				<File Id="688893515" Language="SFX">
+					<ShortName>GunTank 6025_30_1.wav</ShortName>
+					<Path>SFX/GunTank 6025_30_1_E489DC09.wem</Path>
+				</File>
+				<File Id="700978942" Language="SFX">
+					<ShortName>MotorGas 6065_42.wav</ShortName>
+					<Path>SFX/MotorGas 6065_42_04F6B73B.wem</Path>
+				</File>
+				<File Id="877625575" Language="SFX">
+					<ShortName>MLTR_Warfare_BBC18_38_01.wav</ShortName>
+					<Path>SFX/MLTR_Warfare_BBC18_38_01_9E69E797.wem</Path>
+				</File>
+				<File Id="883812714" Language="SFX">
+					<ShortName>MLTR_Tank, Military_US04_24_01.wav</ShortName>
+					<Path>SFX/MLTR_Tank, Military_US04_24_01_C0BE5B86.wem</Path>
+				</File>
+				<File Id="898768707" Language="SFX">
+					<ShortName>EXPL_Explosion_US04_09_04.wav</ShortName>
+					<Path>SFX/EXPL_Explosion_US04_09_04_91A5F030.wem</Path>
+				</File>
+				<File Id="908082231" Language="SFX">
+					<ShortName>ExploSkyAboveDistL MM020203.wav</ShortName>
+					<Path>SFX/ExploSkyAboveDistL MM020203_8DF4E520.wem</Path>
+				</File>
+				<File Id="950830931" Language="SFX">
+					<ShortName>MLTR_Warfare_BBC18_69_01.wav</ShortName>
+					<Path>SFX/MLTR_Warfare_BBC18_69_01_9E69E797.wem</Path>
+				</File>
+				<File Id="969339601" Language="SFX">
+					<ShortName>Helicopter 6019_12.wav</ShortName>
+					<Path>SFX/Helicopter 6019_12_7A382CE7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
